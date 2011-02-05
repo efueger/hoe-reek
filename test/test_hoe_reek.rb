@@ -1,8 +1,6 @@
 require "test/unit"
-require "hoe_reek"
+require 'hoe'
+require 'hoe/reek'
 
 class TestHoeReek < Test::Unit::TestCase
-  def test_sanity
-    flunk "write tests or I will kneecap you"
-  end
 end
