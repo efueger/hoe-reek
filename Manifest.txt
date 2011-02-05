@@ -1,8 +1,6 @@
-.autotest
 History.txt
 Manifest.txt
 README.txt
 Rakefile
-bin/hoe_reek
-lib/hoe_reek.rb
+lib/hoe/reek.rb
 test/test_hoe_reek.rb
