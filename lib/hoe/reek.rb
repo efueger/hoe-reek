@@ -1,5 +1,5 @@
 module Hoe::Reek
-  VERSION = "1.0.0"
+  VERSION = "1.0.1"
 
   def initialize_reek
     require 'reek/rake/task'
@@ -7,7 +7,12 @@ module Hoe::Reek
 
   def define_reek_tasks
     Reek::Rake::Task.new do |t|
-      t.reek_opts << '-q'
+      t.name = 'reek'
+      t.config_file = 'config.reek'
+      t.source_files = 'lib/**/*.rb'
+      t.reek_opts = ''
+      t.fail_on_error = false
+      t.verbose = true
     end
   end
 end
