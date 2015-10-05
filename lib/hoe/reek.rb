@@ -1,5 +1,5 @@
 module Hoe::Reek
-  VERSION = "1.0.1"
+  VERSION = '1.0.1'
 
   def initialize_reek
     require 'reek/rake/task'

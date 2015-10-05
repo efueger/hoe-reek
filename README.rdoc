@@ -1,0 +1,96 @@
+= hoe-manns
+
+home  :: http://saigkill.github.io
+code  :: http://gitlab.com/saigkill/hoe-reek
+docu :: https://gitlab.com/saigkill/hoe-reek/wikis/home
+apidoc :: http://www.rubydoc.info/gems/hoe-reek
+bugs  :: https://gitlab.com/saigkill/hoe-reek/issues
+license :: {<img src="http://img.shields.io/:license-mit-blue.svg" />}[https://gitlab.com/saigkill/MannsShared/blob/master/LICENSE.rdoc]
+last public version  :: {<img src="https://badge.fury.io/rb/hoe-reek.png" alt="Last Version" />}[http://rubygems.org/gems/hoe-reek]
+downloads latest :: {<img src="https://img.shields.io/gem/dtv/hoe-reek.svg" alt="Downloads latest version" />}[http://rubygems.org/gems/hoe-reek]
+downloads all :: {<img src="https://img.shields.io/gem/dt/hoe-reek.svg" alt="Downloads all versions" />}[http://rubygems.org/gems/hoe-reek]
+continuous integration :: {<img src="https://secure.travis-ci.org/saigkill/hoe-reek.png?branch=master" alt="Build Status" />}[https://secure.travis-ci.org/saigkill/hoe-reek]
+continuous integration :: {<img src="https://scrutinizer-ci.com/gp/hoe-reek/badges/build.png?b=master&s=1235d86523d9ea1190617e2aa3379c2f4905ff28" />}[https://scrutinizer-ci.com/g/saigkill/hoe-reek]
+code quality :: {<img src="https://scrutinizer-ci.com/gp/hoe-reek/badges/quality-score.png?b=master&s=ac7ebf95d1731595693f6eb54dc1c89d73a4f131" />}[https://scrutinizer-ci.com/g/saigkil/hoe-reek]
+code quality :: {<img src="https://d3s6mut3hikguw.cloudfront.net/github/saigkill/hoe-reek/badges/gpa.svg" alt="Code Quality" />}[https://codeclimate.com/github/saigkill/hoe-reek]
+test coverage :: {<img src="https://coveralls.io/repos/saigkill/hoe-reek/badge.png?branch=master" alt="Test Coverage" />}[https://coveralls.io/r/saigkill/hoe-reek?branch=master]
+dependency check :: {<img src="https://gemnasium.com/5bad75f44ea336a19afa53e6d6115020.svg" alt="Build Status" />}[https://gemnasium.com/hoe-reek]
+still maintained? :: {<img src="http://stillmaintained.com/saigkill/hoe-reek.png" alt="Still maintained?" />}[http://stillmaintained.com/saigkill/hoe-reek]
+documentation quality :: {<img src="http://inch-ci.org/github/saigkill/hoe-reek.svg?branch=master" alt="Documentation Quality" />}[http://inch-ci.org/github/saigkill/hoe-reek]
+donations :: {<img src="https://pledgie.com/campaigns/30306.png?skin_name=chrome" alt="Donations" />}[https://pledgie.com/campaigns/30306]
+donations :: {<img src="http://img.shields.io/gratipay/saigkill.svg" alt="Donations" />}[https://gratipay.com/~saigkill/]
+donations :: {<img src="http://tsv-neuss.de/cms/upload/News-Bilder/amazon1.png" alt="Donations" />}[http://www.amazon.de/registry/wishlist/D75HOEQ00BDD]
+
+
+== DESCRIPTION:
+
+Tasks to integrate the reek code smell engine into your hoe projects.
+
+== FEATURES/PROBLEMS:
+
+* Integration of Reek into a hoe Rake task
+
+This Gem was programmed and tested for Linux systems. If anyone would like to make the methods also fit for other OS,
+i'm happy about Pull requests.
+
+For a detailed information please visit: https://gitlab.com/saigkill/hoe-reek/wikis/home
+If you like this piece of software don't forget to give the gitlab repo a star.
+
+== SYNOPSIS:
+
+Use in your Rakefile:
+
+    Hoe.plugin :reek
+
+    Hoe.spec 'yourproject' do
+    ...
+    end
+
+Also add hoe-reek to your requirements and recreate your Gemfile.
+
+== REQUIREMENTS:
+
+* rake
+* hoe
+
+== INSTALL:
+
+    gem install hoe-reek
+    cd /path/to/gem (In case of using RVM anything like ~/.rvm/gems/ruby-2.2.1/gems/hoe-reek)
+    rake setup
+
+== DEVELOPERS:
+
+After checking out the source, run:
+
+  $ rake newb
+
+This task will install any missing dependencies, run the tests/specs,
+and generate the RDoc.
+
+Read https://gitlab.com/saigkill/hoe-reek/blob/master/CONTRIBUTING.md
+
+== LICENSE:
+
+(The MIT License)
+
+Copyright (c) 2015 Sascha Manns <samannsml@directbox.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
