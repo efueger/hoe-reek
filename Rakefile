@@ -50,7 +50,7 @@ Hoe.spec 'hoe-reek' do
   self.history_file = 'History.rdoc'
   self.readme_file = 'README.rdoc'
   self.extra_rdoc_files = FileList['*.rdoc'].to_a
-  self.post_install_message = '*** Run rake setup to finish the installation *** Please file bugreports and feature requests on: https://gitlab.com/saigkill/<%= project %>/issues'
+  self.post_install_message = '*** Run rake setup to finish the installation *** Please file bugreports and feature requests on: https://gitlab.com/saigkill/hoe-reek/issues'
 
   dependency 'bundler', '~> 1.10'
   dependency 'setup', '~> 5.2'
