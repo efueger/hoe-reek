@@ -72,9 +72,9 @@ GEM
       setup (~> 5.2)
     hoe-mercurial (1.4.1)
       hoe (~> 3.9)
-    hoe-reek (1.0.0)
-      hoe
-      reek
+    hoe-reek (1.1.0)
+      bundler (~> 1.10)
+      setup (~> 5.2)
     hoe-rubocop (0.1.1)
       RubyInline (~> 3.9)
       setup (~> 5.2)
@@ -194,7 +194,7 @@ DEPENDENCIES
   hoe-highline (~> 0.2)
   hoe-manns (~> 1.0)
   hoe-mercurial (~> 1.4)
-  hoe-reek (~> 1.0)
+  hoe-reek (~> 1.1)
   hoe-rubocop (~> 0.1)
   hoe-rubygems (~> 1.0)
   hoe-seattlerb (~> 1.3)

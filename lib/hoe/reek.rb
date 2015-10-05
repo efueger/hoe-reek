@@ -1,5 +1,19 @@
+#!/usr/bin/env ruby
+# @encoding: utf-8
+# @author: Sascha Manns
+# @abstract: hoe-reek is a small reek integration into hoe
+#
+# Copyright (c) 2015 Sascha Manns <samannsml@directbox.com>
+# License: MIT
+
+# Dependencies
+
+# Main module for hoe-reek
 module Hoe::Reek
-  VERSION = '1.0.1'
+  # Versionizing the gem
+  VERSION = '1.1.1'
+
+  #attr_accessor :reek
 
   def initialize_reek
     require 'reek/rake/task'
@@ -7,7 +21,6 @@ module Hoe::Reek
 
   def define_reek_tasks
     Reek::Rake::Task.new do |t|
-      t.name = 'reek'
       t.config_file = 'config.reek'
       t.source_files = 'lib/**/*.rb'
       t.reek_opts = ''
