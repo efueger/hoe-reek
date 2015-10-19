@@ -1,3 +1,9 @@
+=== 1.1.1 / 2015-10-05
+
+* 1 minor enhancement
+
+  * fixed HR-1 Doesn't work if old hoe-reek is installed
+
 === 1.1.0 / 2015-10-05
 
 * 1 major enhancement

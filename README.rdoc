@@ -1,4 +1,4 @@
-= hoe-manns
+= hoe-reek
 
 home  :: http://saigkill.github.io
 code  :: http://gitlab.com/saigkill/hoe-reek
@@ -7,14 +7,16 @@ apidoc :: http://www.rubydoc.info/gems/hoe-reek
 bugs  :: https://gitlab.com/saigkill/hoe-reek/issues
 license :: {<img src="http://img.shields.io/:license-mit-blue.svg" />}[https://gitlab.com/saigkill/MannsShared/blob/master/LICENSE.rdoc]
 last public version  :: {<img src="https://badge.fury.io/rb/hoe-reek.png" alt="Last Version" />}[http://rubygems.org/gems/hoe-reek]
+last rpm :: {<img src="https://img.shields.io/bintray/v/saigkill/rpm/hoe-reek.svg" />}[https://bintray.com/saigkill/rpm/hoe-reek]
+last deb :: {<img src="https://img.shields.io/bintray/v/saigkill/deb/hoe-reek.svg" />}[https://bintray.com/saigkill/deb/hoe-reek]
 downloads latest :: {<img src="https://img.shields.io/gem/dtv/hoe-reek.svg" alt="Downloads latest version" />}[http://rubygems.org/gems/hoe-reek]
 downloads all :: {<img src="https://img.shields.io/gem/dt/hoe-reek.svg" alt="Downloads all versions" />}[http://rubygems.org/gems/hoe-reek]
 continuous integration :: {<img src="https://secure.travis-ci.org/saigkill/hoe-reek.png?branch=master" alt="Build Status" />}[https://secure.travis-ci.org/saigkill/hoe-reek]
-continuous integration :: {<img src="https://scrutinizer-ci.com/gp/hoe-reek/badges/build.png?b=master&s=1235d86523d9ea1190617e2aa3379c2f4905ff28" />}[https://scrutinizer-ci.com/g/saigkill/hoe-reek]
-code quality :: {<img src="https://scrutinizer-ci.com/gp/hoe-reek/badges/quality-score.png?b=master&s=ac7ebf95d1731595693f6eb54dc1c89d73a4f131" />}[https://scrutinizer-ci.com/g/saigkil/hoe-reek]
+continuous integration :: {<img src="https://scrutinizer-ci.com/gp/hoe-reek/badges/build.png?b=master&s=1235d86523d9ea1190617e2aa3379c2f4905ff28" />}[https://scrutinizer-ci.com/gp/hoe-reek/]
+code quality :: {<img src="https://scrutinizer-ci.com/gp/hoe-reek/badges/quality-score.png?b=master&s=ac7ebf95d1731595693f6eb54dc1c89d73a4f131" />}[https://scrutinizer-ci.com/gp/hoe-reek/]
 code quality :: {<img src="https://d3s6mut3hikguw.cloudfront.net/github/saigkill/hoe-reek/badges/gpa.svg" alt="Code Quality" />}[https://codeclimate.com/github/saigkill/hoe-reek]
 test coverage :: {<img src="https://coveralls.io/repos/saigkill/hoe-reek/badge.png?branch=master" alt="Test Coverage" />}[https://coveralls.io/r/saigkill/hoe-reek?branch=master]
-dependency check :: {<img src="https://gemnasium.com/5bad75f44ea336a19afa53e6d6115020.svg" alt="Build Status" />}[https://gemnasium.com/hoe-reek]
+dependency check :: {<img src="https://gemnasium.com/0a84168b1ebcc0d8dab879b54460672d.svg" alt="Build Status" />}[https://gemnasium.com/cb4a43002ba5a3b1d73d1775e8e3c5be]
 still maintained? :: {<img src="http://stillmaintained.com/saigkill/hoe-reek.png" alt="Still maintained?" />}[http://stillmaintained.com/saigkill/hoe-reek]
 documentation quality :: {<img src="http://inch-ci.org/github/saigkill/hoe-reek.svg?branch=master" alt="Documentation Quality" />}[http://inch-ci.org/github/saigkill/hoe-reek]
 donations :: {<img src="https://pledgie.com/campaigns/30306.png?skin_name=chrome" alt="Donations" />}[https://pledgie.com/campaigns/30306]
@@ -24,7 +26,7 @@ donations :: {<img src="http://tsv-neuss.de/cms/upload/News-Bilder/amazon1.png" 
 
 == DESCRIPTION:
 
-Tasks to integrate the reek code smell engine into your hoe projects.
+Tasks to integrate the reek code smell engine into your hoe projects. This project continues erics project (https://github.com/erikh/hoe-reek).
 
 == FEATURES/PROBLEMS:
 

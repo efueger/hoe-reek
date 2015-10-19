@@ -7,17 +7,17 @@ source "https://rubygems.org/"
 gem "bundler", "~>1.10"
 gem "setup", "~>5.2"
 
-gem "hoe-deveiate", "~>0.7", :group => [:development, :test]
 gem "hoe-highline", "~>0.2", :group => [:development, :test]
 gem "hoe-yard", ">=0.1.2", :group => [:development, :test]
-gem "hoe-mercurial", "~>1.4", :group => [:development, :test]
 gem "coveralls", "~>0.8", :group => [:development, :test]
 gem "gem-release", "~>0.7", :group => [:development, :test]
 gem "hoe-bundler", "~>1.2", :group => [:development, :test]
+gem "hoe-deveiate", "~>0.7", :group => [:development, :test]
 gem "hoe-doofus", "~>1.0", :group => [:development, :test]
 gem "hoe-gemspec", "~>1.0", :group => [:development, :test]
 gem "hoe-git", "~>1.6", :group => [:development, :test]
-gem "hoe-manns", "~>1.0", :group => [:development, :test]
+gem "hoe-manns", "~>1.4.2", :group => [:development, :test]
+gem "hoe-packaging", "~>1.1.0", :group => [:development, :test]
 gem "hoe-reek", "~>1.1", :group => [:development, :test]
 gem "hoe-rubocop", "~>0.1", :group => [:development, :test]
 gem "hoe-rubygems", "~>1.0", :group => [:development, :test]
