@@ -11,7 +11,7 @@
 # Main module for hoe-reek
 module Hoe::Reek
   # Versionizing the gem
-  VERSION = '1.1.1'
+  VERSION = '1.1.2'
 
   #attr_accessor :reek
 

@@ -4,7 +4,7 @@
 
 source "https://rubygems.org/"
 
-gem "bundler", "~>1.10"
+gem "bundler", "~>1.11"
 gem "setup", "~>5.2"
 
 gem "hoe-highline", "~>0.2", :group => [:development, :test]
@@ -16,8 +16,8 @@ gem "hoe-deveiate", "~>0.7", :group => [:development, :test]
 gem "hoe-doofus", "~>1.0", :group => [:development, :test]
 gem "hoe-gemspec", "~>1.0", :group => [:development, :test]
 gem "hoe-git", "~>1.6", :group => [:development, :test]
-gem "hoe-manns", "~>1.4.2", :group => [:development, :test]
-gem "hoe-packaging", "~>1.1.0", :group => [:development, :test]
+gem "hoe-manns", "~>1.4", :group => [:development, :test]
+gem "hoe-packaging", "~>1.1", :group => [:development, :test]
 gem "hoe-reek", "~>1.1", :group => [:development, :test]
 gem "hoe-rubocop", "~>0.1", :group => [:development, :test]
 gem "hoe-rubygems", "~>1.0", :group => [:development, :test]
@@ -25,12 +25,12 @@ gem "hoe-seattlerb", "~>1.3", :group => [:development, :test]
 gem "hoe-travis", "~>1.2", :group => [:development, :test]
 gem "hoe-version", "~>1.2", :group => [:development, :test]
 gem "indexer", "~>0.3", :group => [:development, :test]
-gem "minitest", "~>5.8.1", :group => [:development, :test]
+gem "minitest", "~>5.8", :group => [:development, :test]
 gem "rake", "~>10.0", :group => [:development, :test]
-gem "reek", "~>3.3", :group => [:development, :test]
-gem "rspec", "~>3.3", :group => [:development, :test]
-gem "rubocop", "~>0.34", :group => [:development, :test]
-gem "simplecov", "~>0.10", :group => [:development, :test]
+gem "reek", "~>3.7", :group => [:development, :test]
+gem "rspec", "~>3.4", :group => [:development, :test]
+gem "rubocop", "~>0.35", :group => [:development, :test]
+gem "simplecov", "~>0.11", :group => [:development, :test]
 gem "test", "~>1.0.0", :group => [:development, :test]
 gem "test-unit", "~>3.1.4", :group => [:development, :test]
 gem "ZenTest", "~>4.11", :group => [:development, :test]

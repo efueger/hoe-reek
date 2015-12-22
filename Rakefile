@@ -54,7 +54,7 @@ Hoe.spec 'hoe-reek' do
   self.extra_rdoc_files = FileList['*.rdoc'].to_a
   self.post_install_message = 'Please file bugreports and feature requests on: https://gitlab.com/saigkill/hoe-reek/issues'
 
-  dependency 'bundler', '~> 1.10'
+  dependency 'bundler', '~> 1.11'
   dependency 'setup', '~> 5.2'
 
   extra_dev_deps << ['coveralls', '~> 0.8']
@@ -65,8 +65,8 @@ Hoe.spec 'hoe-reek' do
   extra_dev_deps << ['hoe-gemspec', '~> 1.0']
   extra_dev_deps << ['hoe-git', '~> 1.6']
   extra_dev_deps << ['hoe-highline', '~> 0.2']
-  extra_dev_deps << ['hoe-manns', '~> 1.4.2']
-  extra_dev_deps << ['hoe-packaging', '~> 1.1.0']
+  extra_dev_deps << ['hoe-manns', '~> 1.4']
+  extra_dev_deps << ['hoe-packaging', '~> 1.1']
   extra_dev_deps << ['hoe-reek', '~> 1.1']
   extra_dev_deps << ['hoe-rubocop', '~> 0.1']
   extra_dev_deps << ['hoe-rubygems', '~> 1.0']
@@ -75,12 +75,12 @@ Hoe.spec 'hoe-reek' do
   extra_dev_deps << ['hoe-version', '~> 1.2']
   extra_dev_deps << ['hoe-yard', '~> 0.1']
   extra_dev_deps << ['indexer', '~> 0.3']
-  extra_dev_deps << ['minitest', '~> 5.8.1']
+  extra_dev_deps << ['minitest', '~> 5.8']
   extra_dev_deps << ['rake', '~> 10.0']
-  extra_dev_deps << ['reek', '~> 3.3']
-  extra_dev_deps << ['rspec', '~> 3.3']
-  extra_dev_deps << ['rubocop', '~> 0.34']
-  extra_dev_deps << ['simplecov', '~> 0.10']
+  extra_dev_deps << ['reek', '~> 3.7']
+  extra_dev_deps << ['rspec', '~> 3.4']
+  extra_dev_deps << ['rubocop', '~> 0.35']
+  extra_dev_deps << ['simplecov', '~> 0.11']
   extra_dev_deps << ['test', '~> 1.0.0']
   extra_dev_deps << ['test-unit', '~> 3.1.4']
   extra_dev_deps << ['ZenTest', '~> 4.11']
