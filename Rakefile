@@ -17,7 +17,7 @@ Hoe.plugin :doofus
 Hoe.plugin :email
 Hoe.plugin :gemspec
 # Hoe.plugin :gem_prelude_sucks
-#Hoe.plugin.remove :git
+#Hoe.plugins.delete :git
 Hoe.plugin :git
 Hoe.plugin :history
 Hoe.plugin :highline
@@ -75,17 +75,17 @@ Hoe.spec 'hoe-reek' do
   extra_dev_deps << ['hoe-version', '~> 1.2']
   extra_dev_deps << ['hoe-yard', '~> 0.1']
   extra_dev_deps << ['indexer', '~> 0.3']
-  extra_dev_deps << ['minitest', '~> 5.8']
-  extra_dev_deps << ['rake', '~> 10.0']
-  extra_dev_deps << ['reek', '~> 3.7']
+  #extra_dev_deps << ['minitest', '~> 5.8']
+  extra_dev_deps << ['rake', '~> 10.5']
+  extra_dev_deps << ['reek', '~> 3.9']
   extra_dev_deps << ['rspec', '~> 3.4']
-  extra_dev_deps << ['rubocop', '~> 0.35']
+  extra_dev_deps << ['rubocop', '~> 0.36']
   extra_dev_deps << ['simplecov', '~> 0.11']
   extra_dev_deps << ['test', '~> 1.0.0']
-  extra_dev_deps << ['test-unit', '~> 3.1.4']
+  extra_dev_deps << ['test-unit', '~> 3.1']
   extra_dev_deps << ['ZenTest', '~> 4.11']
   extra_dev_deps << ['bundler-audit', '~> 0.4.0']
-  extra_dev_deps << ['manns_shared', '~> 1.0.0']
+  extra_dev_deps << ['manns_shared', '~> 1.0']
   extra_dev_deps << ['bundler-audit', '~> 0.4.0']
 end
 

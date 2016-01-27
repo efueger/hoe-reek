@@ -155,4 +155,4 @@ name: hoe-reek
 title: hoe-reek
 summary: Tasks to integrate the reek code smell engine into your hoe projects.
 description: Tasks to integrate the reek code smell engine into your hoe projects.
-date: '2015-12-22'
+date: '2016-01-27'
