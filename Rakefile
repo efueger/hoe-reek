@@ -1,6 +1,5 @@
 # -*- ruby -*-
 # Release:
-# * update *.wiki markdown documentation for GitLab
 # * enable :git
 # * rake run_before_release
 # * disable :git
@@ -25,7 +24,7 @@ Hoe.plugin :highline
 Hoe.plugin :manns
 #Hoe.plugin :mercurial
 #Hoe.plugin :perforce
-Hoe.plugin :packaging
+#Hoe.plugin :packaging
 # Hoe.plugin :racc
 #Hoe.plugin :rcov
 Hoe.plugin :reek
@@ -66,7 +65,7 @@ Hoe.spec 'hoe-reek' do
   extra_dev_deps << ['hoe-git', '~> 1.6']
   extra_dev_deps << ['hoe-highline', '~> 0.2']
   extra_dev_deps << ['hoe-manns', '~> 1.4']
-  extra_dev_deps << ['hoe-packaging', '~> 1.1']
+  #extra_dev_deps << ['hoe-packaging', '~> 1.1']
   extra_dev_deps << ['hoe-reek', '~> 1.1']
   extra_dev_deps << ['hoe-rubocop', '~> 0.1']
   extra_dev_deps << ['hoe-rubygems', '~> 1.0']

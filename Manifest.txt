@@ -2,7 +2,6 @@
 .codeclimate.yml
 .coveralls.yml
 .gemnasium.yml
-.index
 .rspec
 .rubocop.yml
 .scrutinizer.yml
@@ -16,8 +15,6 @@ LICENSE.rdoc
 Manifest.txt
 README.rdoc
 Rakefile
-VERSION
 config.reek
 lib/hoe/reek.rb
 recipes/recipe.rb
-test/test_hoe_reek.rb

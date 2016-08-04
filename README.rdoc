@@ -1,10 +1,10 @@
 = hoe-reek
 
 home  :: http://saigkill.github.io
-code  :: http://gitlab.com/saigkill/hoe-reek
-docu :: https://gitlab.com/saigkill/hoe-reek/wikis/home
+code  :: http://github.com/saigkill/hoe-reek
+docu :: https://github.com/saigkill/hoe-reek/wikis/home
 apidoc :: http://www.rubydoc.info/gems/hoe-reek
-bugs  :: https://gitlab.com/saigkill/hoe-reek/issues
+bugs  :: https://github.com/saigkill/hoe-reek/issues
 license :: {<img src="http://img.shields.io/:license-mit-blue.svg" />}[https://gitlab.com/saigkill/MannsShared/blob/master/LICENSE.rdoc]
 last public version  :: {<img src="https://badge.fury.io/rb/hoe-reek.png" alt="Last Version" />}[http://rubygems.org/gems/hoe-reek]
 last rpm :: {<img src="https://img.shields.io/bintray/v/saigkill/rpm/hoe-reek.svg" />}[https://bintray.com/saigkill/rpm/hoe-reek]
