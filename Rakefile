@@ -45,13 +45,13 @@ Hoe.spec 'hoe-reek' do
   self.history_file = 'History.rdoc'
   self.readme_file = 'README.rdoc'
   self.extra_rdoc_files = FileList['*.rdoc'].to_a
-  self.post_install_message = 'Please file bugreports and feature requests on: https://gitlab.com/saigkill/hoe-reek/issues'
+  self.post_install_message = 'Please file bugreports and feature requests on: https://saigkill.myjetbrains.com/youtrack/issues?q=project%3A+hoe-reek'
 
   dependency 'bundler', '~> 1.11'
   dependency 'setup', '~> 5.2'
 
   extra_dev_deps << ['coveralls', '~> 0.8']
-  extra_dev_deps << ['hoe-bundler', '~> 1.2']
+  extra_dev_deps << ['hoe-bundler', '~> 1.3']
   extra_dev_deps << ['hoe-doofus', '~> 1.0']
   extra_dev_deps << ['hoe-git', '~> 1.6']
   extra_dev_deps << ['hoe-highline', '~> 0.2']
@@ -61,10 +61,10 @@ Hoe.spec 'hoe-reek' do
   extra_dev_deps << ['hoe-seattlerb', '~> 1.3']
   extra_dev_deps << ['hoe-version', '~> 1.2']
   #extra_dev_deps << ['minitest', '~> 5.8']
-  extra_dev_deps << ['rake', '~> 10.5']
-  extra_dev_deps << ['reek', '~> 3.9']
-  extra_dev_deps << ['rspec', '~> 3.4']
-  extra_dev_deps << ['simplecov', '~> 0.11']
+  extra_dev_deps << ['rake', '~> 11.2']
+  extra_dev_deps << ['reek', '~> 4.2']
+  extra_dev_deps << ['rspec', '~> 3.5']
+  extra_dev_deps << ['simplecov', '~> 0.12']
 end
 
 ##################################################SETUP ZONE############################################################
