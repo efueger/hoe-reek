@@ -30,4 +30,4 @@ based on `master` will likely be cherry picked.
 
 Need to report an issue? Use that issue tracker:
 
-* https://github.com/saigkill/hoe-reek/issues
+* https://saigkill.myjetbrains.com/youtrack/issues?q=project%3A+hoe-reek
