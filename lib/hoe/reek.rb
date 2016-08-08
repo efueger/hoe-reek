@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby
+# encoding: UTF-8
 # @encoding: utf-8
 # @author: Sascha Manns
 # @abstract: hoe-reek is a small reek integration into hoe

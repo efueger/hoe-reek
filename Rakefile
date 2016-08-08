@@ -15,7 +15,7 @@ Hoe.plugin :doofus
 Hoe.plugin :email
 # Hoe.plugin :gem_prelude_sucks
 #Hoe.plugins.delete :git
-Hoe.plugin :git
+#Hoe.plugin :git
 Hoe.plugin :history
 Hoe.plugin :highline
 #Hoe.plugin :inline
@@ -45,7 +45,7 @@ Hoe.spec 'hoe-reek' do
   self.history_file = 'History.rdoc'
   self.readme_file = 'README.rdoc'
   self.extra_rdoc_files = FileList['*.rdoc'].to_a
-  self.post_install_message = 'Please file bugreports and feature requests on: https://saigkill.myjetbrains.com/youtrack/issues?q=project%3A+hoe-reek'
+  self.post_install_message = 'Please file bugreports and feature requests on: https://saigkill.myjetbrains.com/youtrack/issues'
 
   dependency 'bundler', '~> 1.11'
   dependency 'setup', '~> 5.2'
@@ -60,7 +60,6 @@ Hoe.spec 'hoe-reek' do
   extra_dev_deps << ['hoe-rubygems', '~> 1.0']
   extra_dev_deps << ['hoe-seattlerb', '~> 1.3']
   extra_dev_deps << ['hoe-version', '~> 1.2']
-  #extra_dev_deps << ['minitest', '~> 5.8']
   extra_dev_deps << ['rake', '~> 11.2']
   extra_dev_deps << ['reek', '~> 4.2']
   extra_dev_deps << ['rspec', '~> 3.5']
