@@ -11,6 +11,9 @@ engines:
       - php
   reek:
     enabled: true
+    checks:
+      FeatureEnvy:
+        enabled: false
   rubocop:
     enabled: false
 ratings:
