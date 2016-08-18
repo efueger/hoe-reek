@@ -29,6 +29,12 @@
 #     end
 #   end
 # end
+module EmilyCan
+  options = nil if options.is_a?(Hash) && options.empty?
+      updated_rules = super(action, subject, options, &block)
+      updated_rules.last.instance_variable_set(:@emily_can?, denial_reason)
+      updated_rules
+end
 class Warehouse
   def sale_price(item)
     (item.price - item.rebate) * @vat
@@ -39,10 +45,3 @@ class Office
     employee.sociable? || employee.likes?(@city) 
   end 
 end
-
-module EmilyCan
-  options = nil if options.is_a?(Hash) && options.empty?
-      updated_rules = super(action, subject, options, &block)
-      updated_rules.last.instance_variable_set(:@emily_can?, denial_reason)
-      updated_rules
-  end
