@@ -35,13 +35,13 @@ module EmilyCan
       updated_rules.last.instance_variable_set(:@emily_can?, denial_reason)
       updated_rules
 end
-class Warehouse
-  def sale_price(item)
-    (item.price - item.rebate) * @vat
-  end
-end
-class Office 
-  def good_fit?(employee) 
-    employee.sociable? || employee.likes?(@city) 
-  end 
-end
+# class Warehouse
+#   def sale_price(item)
+#     (item.price - item.rebate) * @vat
+#   end
+# end
+# class Office 
+#   def good_fit?(employee) 
+#     employee.sociable? || employee.likes?(@city) 
+#   end 
+# end
