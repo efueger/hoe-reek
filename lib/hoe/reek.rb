@@ -30,9 +30,14 @@ module Hoe::Reek
   end
 end
 
-
 class Warehouse
   def sale_price(item)
     (item.price - item.rebate) * @vat
   end
+end
+
+class Office 
+  def good_fit?(employee) 
+    employee.sociable? || employee.likes?(@city) 
+  end 
 end
