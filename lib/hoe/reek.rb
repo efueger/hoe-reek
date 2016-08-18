@@ -29,3 +29,10 @@ module Hoe::Reek
     end
   end
 end
+
+
+class Warehouse
+  def sale_price(item)
+    (item.price - item.rebate) * @vat
+  end
+end
